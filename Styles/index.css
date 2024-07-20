@@ -88,7 +88,6 @@ nav{display: flex;align-items: center;justify-content: space-between;height: 10v
 nav ul{display: flex;align-items: center;gap: .6rem;}
 nav ul li{list-style: none;margin: 0 1rem;}
 nav ul li a{color: var(--Bg-color)!important;text-decoration: none;font-weight: 500;}
-.inner-ttitle{font-size: 3.6rem;}
 
 /* End Global Variables */
 section
@@ -109,7 +108,6 @@ section
 }
 .row h1
 {
-    /* font-size: 6rem; */
     font-size: clamp(50px, 7.5vw + 10px, 100px);
 }
 
