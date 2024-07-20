@@ -107,7 +107,11 @@ section
     list-style-position: inside;
     rotate:20deg;
 }
-.row h1{font-size: 6rem;}
+.row h1
+{
+    /* font-size: 6rem; */
+    font-size: clamp(50px, 7.5vw + 10px, 100px);
+}
 
 .columns
 {
